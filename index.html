@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendulo</title>
+    <link rel="shortcut icon" type="image/jpg" href="Favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Saira+Stencil+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="header">
+                <h1>Pendulo</h1>
+                <p>Uzu la alfabeton por diveni la vorton, sed estu singarda, ĉar ĉiu malgŭsta elekto konstruos pendejo
+                    pormortigi vin!</p>
+                <div id="win"></div>
+                <div id="lose"></div>
+                <!-- <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <h4 class="alert-heading">Mi
+                        bedaŭras!</h4>
+                    <button type="button" class="close btn-close alert" data-dismiss="alert" aria-label="Close">
+                    </button>
+                    <p id="failure">Vi malsukcesis. La vorto estis _____</p>
+
+                </div> -->
+                <canvas width="350" height="350" id="canvas">
+                    <p>Via retumilo ne subtenas kanvason! Ho ve! :(</p>
+                </canvas>
+            </div>
+            <div class="guesses">
+                <p id="guesses"></p>
+            </div>
+            <div id="keyboard">
+                <div id="row1">
+                    <button class="selector" id="Ŝ">Ŝ</button>
+                    <button class="selector" id="Ĝ">Ĝ</button>
+                    <button class="selector" id="E">E</button>
+                    <button class="selector" id="R">R</button>
+                    <button class="selector" id="T">T</button>
+                    <button class="selector" id="Ŭ">Ŭ</button>
+                    <button class="selector" id="U">U</button>
+                    <button class="selector" id="I">I</button>
+                    <button class="selector" id="O">O</button>
+                    <button class="selector" id="P">P</button>
+                </div>
+                <div id="row2">
+                    <button class="selector" id="A">A</button>
+                    <button class="selector" id="S">S</button>
+                    <button class="selector" id="D">D</button>
+                    <button class="selector" id="F">F</button>
+                    <button class="selector" id="G">G</button>
+                    <button class="selector" id="H">H</button>
+                    <button class="selector" id="Ĥ">Ĥ</button>
+                    <button class="selector" id="J">J</button>
+                    <button class="selector" id="K">K</button>
+                    <button class="selector" id="L">L</button>
+                    <button class="selector" id="Ĵ">Ĵ</button>
+                </div>
+                <div id="row3">
+                    <button class="selector" id="Z">Z</button>
+                    <button class="selector" id="Ĉ">Ĉ</button>
+                    <button class="selector" id="C">C</button>
+                    <button class="selector" id="V">V</button>
+                    <button class="selector" id="B">B</button>
+                    <button class="selector" id="N">N</button>
+                    <button class="selector" id="M">M</button>
+                </div>
+            </div>
+            <div">
+                <button id="rekomencu">Rekomencu</button>
+        </div>
+        </div>
+
+
+    </section>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script> -->
+    <script src="app.js"></script>
+</body>
+
+</html>
